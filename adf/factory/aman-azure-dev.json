@@ -1,0 +1,15 @@
+{
+	"name": "aman-azure-dev",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "258d3304-b2d1-41b2-9a0c-302b407b1bb4",
+		"tenantId": "85121c6c-1b30-42e2-83d0-d09b39316f2b"
+	}
+}
